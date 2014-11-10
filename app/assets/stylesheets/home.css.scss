@@ -8,13 +8,16 @@
     width: 60%;
     margin: 0 auto;
   }
-  .search-container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid black;
-    .search-artist-name {
-      width: 80%;
+  .music-player-container {
+  	width: 80%;
+  	border: 1px solid black;
+  	margin: 0 auto;
+    .search-container {
+    	width: 80%;
+    	margin: 0 auto;
+      .search-artist-name {
+        width: 100%;
+      }
     }
   }
 }
