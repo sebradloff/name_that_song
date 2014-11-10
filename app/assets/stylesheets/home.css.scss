@@ -1,16 +1,20 @@
-.home-container{
-	width: 960px;
-	margin: 0 auto;
-	.site-title{
-		text-align: center;
-	}
-	.site-description{
-		width: 60%;
-		margin: 0 auto;
-	}
-	.search-container{
-		width: 80%;
-		margin: 0 auto;
-		border: 1px solid black;
-	}
+.home-container {
+  width: 960px;
+  margin: 0 auto;
+  .site-title {
+    text-align: center;
+  }
+  .site-description {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .search-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    .search-artist-name {
+      width: 80%;
+    }
+  }
 }
